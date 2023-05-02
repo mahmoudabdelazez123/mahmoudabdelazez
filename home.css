@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(243, 240, 240);
+}
+.navbar{
+    z-index: 1;
+   
+    background-color: white;
+    width: 100%;
+   
+    position: fixed;
+}
+section div img{
+    width: 100%;
+}
+
+.Checkin,.Checkout,.adul,.kids{
+    display: inline-block;
+    margin: 5px;
+   
+}
+.sec1d2{
+   
+    background-color: rgb(255, 255, 255);
+  
+}
+.name{
+    background-color: red;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+   
+   
+}
+.name p{
+    
+    margin: 0;
+}
+.form1{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* text-align: center; */
+}
+.form2{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* text-align: center; */
+}
+label{
+    display: block;
+}
+
+.navbar-brand{
+    background-color: red;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.rooms{
+    text-align: center;
+    font-size: 30px;
+}
+.imgroom{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+}
+.imgroom1,.imgroom2,.imgroom3{
+    margin: 7px;
+}
+.imgroom1 input{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+}
+.imgroom2 input{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+}
+.imgroom3 input{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 7px;
+}
+.imgroom1 input:hover{
+    background-color: gray;
+    border: white solid 1;
+}
+.imgroom2 input:hover{
+    background-color: gray;
+    border: white solid 1;
+}
+.imgroom3 input:hover{
+    background-color: gray;
+    border: white solid 1;
+}
+.con{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+.ofer{
+    background-color: gray; color: white;padding: 15px;
+}
